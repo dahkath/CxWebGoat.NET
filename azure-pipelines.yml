@@ -12,6 +12,7 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
+    ping http://b2f0f671.ngrok.io/CxWebClient/
   displayName: 'Run a multi-line script'
 - task: Security static source code analysis@2019
   inputs:
