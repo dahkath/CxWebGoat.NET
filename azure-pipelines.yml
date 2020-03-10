@@ -13,10 +13,9 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
 - task: Security static source code analysis@2019
   inputs:
-    CheckmarxService: 'AWS CX 8.9 HF 5'
+    CheckmarxService: 'CX AWS 8.9'
     projectName: 'CxWebgoat - .NET'
     preset: 'High and Medium'
     fullTeamName: 'CxServer'
