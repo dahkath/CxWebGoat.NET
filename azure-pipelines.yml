@@ -11,8 +11,7 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  displayName: 'This is a script!  It does stuff!'
 - task: Security static source code analysis@2019
   inputs:
     CheckmarxService: 'CX AWS 8.9'
